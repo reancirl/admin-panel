@@ -44,8 +44,8 @@
 </head> 
     @guest
         <body style="background-color: #b8b8b8">
-            <div class="preloader flex-column justify-content-center align-items-center" style="background-color: #28a0cb">
-                <img class="animation__shake" src="{{asset('assets/custome/images/preloader.png')}}" alt="JRT" height="60%" width="60%">
+            <div class="preloader flex-column justify-content-center align-items-center" style="background-color: #ffffff">
+                <img class="animation__shake" src="{{asset('assets/custome/images/preloader.jpeg')}}" alt="JRT" height="100%" width="100%">
             </div>
             <div class="d-flex align-items-center min-vh-100" style="width: 100%;">
                 <div class="container text-center">
@@ -56,8 +56,8 @@
         <body class="hold-transition sidebar-mini layout-fixed">
             <div class="wrapper">
                 <!-- Preloader -->
-                <div class="preloader flex-column justify-content-center align-items-center" style="background-color: #28a0cb">
-                    <img class="animation__shake" src="{{asset('assets/custome/images/preloader.png')}}" alt="ES-System" height="60%" width="60%">
+                <div class="preloader flex-column justify-content-center align-items-center" style="background-color: #ffffff">
+                    <img class="animation__shake" src="{{asset('assets/custome/images/preloader.jpeg')}}" alt="ES-System" height="60%" width="60%">
                 </div>
                 @include('layouts.header')
                 @include('layouts.sidebar')
